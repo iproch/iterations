@@ -4,6 +4,13 @@ artists.forEach(artist => {
   console.log(artist + ' is one of the greatest artists.')
 });
 
+const numbers = [1,2,3,4,5];
+
+const squareNumbers = numbers.map(num => {
+return num * num;
+});
+
+console.log(squareNumbers);
 /*
 const artists = ['Picasso', 'Kahlo', 'Matisse', 'Utamaro'];
 
